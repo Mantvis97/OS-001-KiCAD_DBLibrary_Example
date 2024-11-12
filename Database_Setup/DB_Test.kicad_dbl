@@ -1,0 +1,5795 @@
+{
+    "meta": {
+        "version": 0
+    },
+    "name": "My Database Library",
+    "description": "A database of electronic components for KiCAD",
+    "source": {
+        "type": "odbc",
+        "dsn": "",
+        "username": "",
+        "password": "",
+        "timeout_seconds": 2,
+        "connection_string": "Driver={SQLite3 ODBC Driver};Database=ADD_YOUR_SQLITE_DATABASE_PATH_THERE"
+    },
+    "libraries": [
+     {
+        "name": "Misc_Artwork_1",
+        "table": "Misc_Artwork_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Misc_Graphical_1",
+        "table": "Misc_Graphical_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Misc_Mechanical_1",
+        "table": "Misc_Mechanical_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Misc_Other_1",
+        "table": "Misc_Other_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Misc_Production_1",
+        "table": "Misc_Production_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      }, 
+     {
+        "name": "Part_ActDiodes_1",
+        "table": "Part_ActDiodes_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_ActOther_1",
+        "table": "Part_ActOther_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_ActTransistors_1",
+        "table": "Part_ActTransistors_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_Connectors_1",
+        "table": "Part_Connectors_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_Housings_1",
+        "table": "Part_Housings_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_ICs_1",
+        "table": "Part_ICs_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_Modules_1",
+        "table": "Part_Modules_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      }, 
+     {
+        "name": "Part_Oscillators_1",
+        "table": "Part_Oscillators_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      }, 
+     {
+        "name": "Part_Other_1",
+        "table": "Part_Other_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_PsvCapacitors_1",
+        "table": "Part_PsvCapacitors_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_PsvCapacitors_B0402",
+        "table": "Part_PsvCapacitors_B0402",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_PsvCapacitors_B0603",
+        "table": "Part_PsvCapacitors_B0603",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_PsvCapacitors_B0805",
+        "table": "Part_PsvCapacitors_B0805",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      }, 
+     {
+        "name": "Part_PsvInductors_1",
+        "table": "Part_PsvInductors_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      }, 
+     {
+        "name": "Part_PsvOther_1",
+        "table": "Part_PsvOther_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_PsvResistors_1",
+        "table": "Part_PsvResistors_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_PsvResistors_B0402",
+        "table": "Part_PsvResistors_B0402",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_PsvResistors_B0603",
+        "table": "Part_PsvResistors_B0603",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_PsvResistors_B0805",
+        "table": "Part_PsvResistors_B0805",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_PsvResistors_B1206",
+        "table": "Part_PsvResistors_B1206",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_Switches_1",
+        "table": "Part_Switches_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      },
+     {
+        "name": "Part_Switches_1",
+        "table": "Part_Switches_1",
+        "key": "Key",
+        "symbols": "Symbol",
+        "footprints": "Footprint",
+        "fields": [
+          {
+            "column": "Key",
+            "name": "PartID",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false
+          },
+          {
+            "column": "StoreBox",
+            "name": "StoreBox",
+            "visible_on_add": false,
+            "visible_in_chooser": true,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Name",
+            "name": "Name",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false
+          },
+          {
+            "column": "MPN",
+            "name": "MPN",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		  {
+            "column": "Type",
+            "name": "Type",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Tags",
+            "name": "Tags",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value",
+            "name": "Value",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Value2",
+            "name": "Value2",
+            "visible_on_add": true,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MinTemp",
+            "name": "MinTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "MaxTemp",
+            "name": "MaxTemp",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+		      {
+            "column": "Mount",
+            "name": "Mount",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Package",
+            "name": "Package",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Manufacturer",
+            "name": "Manufacturer",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "LQ_Price",
+            "name": "LQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "HQ_Price",
+            "name": "HQ_Price",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "JLC_Code",
+            "name": "JLC_Code",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Project",
+            "name": "Project",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Alternatives",
+            "name": "Alternatives",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Notes",
+            "name": "Notes",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Datasheet",
+            "name": "Datasheet",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link1",
+            "name": "Link1",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link2",
+            "name": "Link2",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link3",
+            "name": "Link3",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link4",
+            "name": "Link4",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          },
+          {
+            "column": "Link5",
+            "name": "Link5",
+            "visible_on_add": false,
+            "visible_in_chooser": false,
+            "show_name": false,
+            "inherit_properties": false
+          }
+        ],
+        "properties": {
+          "description": "Description",
+          "footprint_filters": "footprint_filters",
+          "keywords": "Keywords",
+          "exclude_from_bom": "exclude_from_bom",
+          "exclude_from_board": "exclude_from_board"
+        }
+      }
+   ]
+}
